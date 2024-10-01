@@ -18,7 +18,7 @@ The File Extractor is a Python application that allows users to extract specific
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/file_extractor.git
+   git clone https://github.com/ankitsinghmyself/file_extractor
    cd file_extractor
    ```
 
@@ -40,7 +40,7 @@ pyinstaller --onefile --windowed --icon="fileExtractor.ico" file_extractor.py
 
 
 ## Download the Application
-You can download the application [here](./file_extractor.exe).
+You can download the application [here](blob:https://github.com/76b313c9-37c9-4b7c-8e8c-a8c5851e24fd).
 
 ## How to Use
 1. Launch the application.
