@@ -2,7 +2,7 @@ import os
 import shutil
 import threading
 from tkinter import Tk, Label, Button, filedialog, StringVar, messagebox, BooleanVar, Checkbutton, Listbox, MULTIPLE, Entry
-from tkinter.ttk import Progressbar  # Importing Progressbar from tkinter.ttk
+from tkinter.ttk import Progressbar 
 
 def select_source_folder():
     folder = filedialog.askdirectory(mustexist=True)
@@ -96,9 +96,8 @@ def main():
     progress_percentage = StringVar(value="0%")
     delete_var = BooleanVar()
 
-    # Source folder selection
     Label(root, text="Select the source folder:", bg="#f0f0f0", font=("Arial", 12)).pack(pady=10)
-    Button(root, text="Select Source Folder", command=select_source_folder, bg="#007acc", fg="white", font=("Arial", 10)).pack()
+    Button(root, text="Select Source Folder", command=select_source_folder,  bg="#007acc", fg="white", font=("Arial", 10)).pack()
     Label(root, textvariable=source_folder_var, bg="#f0f0f0", font=("Arial", 10)).pack(pady=5)
 
     # Destination folder selection
@@ -115,7 +114,7 @@ def main():
     file_type_listbox.pack(pady=5)
 
     # Entry for custom file types
-    Label(root, text="Enter custom file types (comma-separated):", bg="#f0f0f0", font=("Arial", 12)).pack(pady=10)
+    Label(root, text="Enter custom file types (comma-separated)(e.g., .mp4,.txt):", bg="#f0f0f0", font=("Arial", 12)).pack(pady=10)
     custom_file_type_entry = Entry(root, width=30)
     custom_file_type_entry.pack(pady=5)
 
