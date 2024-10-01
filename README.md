@@ -40,7 +40,7 @@ pyinstaller --onefile --windowed --icon="fileExtractor.ico" file_extractor.py
 
 
 ## Download the Application
-You can download the application [here](./file_extractor.exe).
+You can download the application [here](https://github.com/ankitsinghmyself/file_extractor/raw/refs/heads/master/file_extractor.exe).
 
 ## How to Use
 1. Launch the application.
